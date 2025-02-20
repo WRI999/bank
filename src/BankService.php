@@ -2,7 +2,7 @@
 
 namespace Assetku\BankService;
 
-use Assetku\BankService\BalanceInquiry\Permatabank\BalanceInquiryFactory;
+use Assetku\BankService\BalanceInquiry\Bca\BalanceInquiryFactory;
 use Assetku\BankService\Contracts\AccessToken\AccessTokenRequestContract;
 use Assetku\BankService\Contracts\AccountValidationInquiry\AccountValidationInquiryFactoryContract;
 use Assetku\BankService\Contracts\ApplicationStatusInquiry\ApplicationStatusInquiryFactoryContract;
@@ -10,7 +10,7 @@ use Assetku\BankService\Contracts\MustValidated;
 use Assetku\BankService\Contracts\NotifAccountOpeningStatus\NotifAccountOpeningStatusFactoryInterface;
 use Assetku\BankService\Contracts\RiskRatingInquiry\RiskRatingInquiryFactoryContract;
 use Assetku\BankService\Contracts\ServiceInterface;
-use Assetku\BankService\Contracts\Subjects\LlgTransferSubject;
+use Assetku\BankService\Contracts\Subjects\BcaTransferSubject;
 use Assetku\BankService\Contracts\Subjects\OnlineTransferSubject;
 use Assetku\BankService\Contracts\Subjects\OverbookingSubject;
 use Assetku\BankService\Contracts\Subjects\RtgsTransferSubject;
